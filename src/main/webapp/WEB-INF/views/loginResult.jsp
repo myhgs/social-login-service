@@ -8,14 +8,14 @@
 <head>
     <title>로그인 테스트</title>
 </head>
-<script src="/static/js/jquery-1.12.1.min.js"></script>
 <body>
 </body>
 <script>
-
+    //로그인 결과
     var data = '${data}';
+    //결과값 전달
     window.opener.socialAuthData(data);
+    //팝업 닫기
     window.close();
-
 </script>
 </html>
