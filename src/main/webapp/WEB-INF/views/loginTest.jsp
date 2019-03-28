@@ -40,11 +40,11 @@
     //소셜 로그인 팝업
     function login(type){
         if(type == 'facebook'){
-            window.open(facebookAuthUrl, "SocialLogin", specs);
+            window.open(facebookAuthUrl, "SocialLogin");
         }else if(type == 'naver'){
-            window.open(naverAuthUrl, "SocialLogin", specs);
+            window.open(naverAuthUrl, "SocialLogin");
         }else if(type == 'kakao'){
-            window.open(kakaoAuthUrl, "SocialLogin", specs);
+            window.open(kakaoAuthUrl, "SocialLogin");
         }
     }
 </script>
