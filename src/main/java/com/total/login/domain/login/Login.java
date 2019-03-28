@@ -38,14 +38,12 @@ public class Login {
 
     @Builder
     public Login(
-            Long memberNumber
-            ,String memberName
+            String memberName
             ,String socialSectionCode
             ,String socialName
             ,String socialEmail
             ,String socialUniqueId
     ) {
-        this.memberNumber = memberNumber;
         this.memberName = memberName;
         this.socialSectionCode = socialSectionCode;
         this.socialName = socialName;
